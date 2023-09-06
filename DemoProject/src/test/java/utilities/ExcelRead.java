@@ -22,6 +22,6 @@ public static void main(String args[]) throws IOException {
 	ExcelRead e=new ExcelRead();
 	String result=e.readexcel("C:\\Users\\ARUN\\Desktop\\TestDataNew.xlsx",0, 1, 0);
 	System.out.print(result);
-	System.out.print(" ");
+	
 }
 }
